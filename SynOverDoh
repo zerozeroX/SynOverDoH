@@ -1,0 +1,7 @@
+#!name=SYN over DoH
+#!desc=强制Syn相关域名走国外DOH
+#!author=黑子军团
+
+[Host]
+*.8*9?0.xyz = server:https://1.1.1.1/dns-query
+*.synn.* = server:https://1.1.1.1/dns-query
